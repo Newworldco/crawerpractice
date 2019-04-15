@@ -40,6 +40,7 @@ def find_movies(res):
 
 
 # 找出一共多少个页面
+# 用两次previous_sibling是因为第一次是返回换行符
 def find_depth(res):
     soup = bs4.BeautifulSoup(res.text, "html.parser")
     depth = soup.find('span', class_='next').previous_sibling.previous_sibling.text
