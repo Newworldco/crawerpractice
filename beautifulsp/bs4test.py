@@ -1,7 +1,7 @@
 import bs4
 import requests
 import re
-
+import openpyxl
 
 def open_url(url):
 
@@ -21,7 +21,7 @@ def find_movies(res):
     ranks = []
     targets = soup.find_all("span", class_="rating_num")
     for each in targets:
-        ranks.append('评分 ：%s' % each.text)
+        ranks.append(each.text)
 
     messages = []
     targets = soup.find_all("div", class_="bd")
@@ -34,7 +34,7 @@ def find_movies(res):
     result = []
     length = len(movies)
     for i in range(length):
-        result.append(movies[i] + ranks[i] + messages[i] + '\n')
+        result.append([movies[i], ranks[i], messages[i]])
 
     return result
 
@@ -48,6 +48,19 @@ def find_depth(res):
     return int(depth)
 
 
+def save_excel(result):
+    wb = openpyxl.Workbook()
+    wb.guess_types = True
+    ws = wb.active
+
+    ws.append(["电影名称", "评分", "资料"])
+
+    for each in result:
+        ws.append(each)
+
+    wb.save("豆瓣top250.xlsx")
+
+
 def main():
     host = "https://movie.douban.com/top250"
     res = open_url(host)
@@ -59,9 +72,10 @@ def main():
         res = open_url(url)
         result.extend(find_movies(res))
 
-    with open("豆瓣TOP250.txt", "w", encoding="utf-8") as f:
-        for each in result:
-            f.write(each)
+    save_excel(result)
+
+
+
 
 
 if __name__ == '__main__':
