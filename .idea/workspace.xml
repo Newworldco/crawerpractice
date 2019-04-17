@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b608f52-127a-4c2c-9bc4-7cfb4a4d972c" name="Default Changelist" comment="">
+    <list default="true" id="3b608f52-127a-4c2c-9bc4-7cfb4a4d972c" name="Default Changelist" comment="add douban  excel">
+      <change afterPath="$PROJECT_DIR$/beautifulsp/music163.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beautifulsp/2019年各城市房价.txt" beforeDir="false" afterPath="$PROJECT_DIR$/beautifulsp/2019年各城市房价.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beautifulsp/houseprice.py" beforeDir="false" afterPath="$PROJECT_DIR$/beautifulsp/houseprice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beautifulsp/豆瓣top250.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/beautifulsp/豆瓣top250.xlsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,10 +13,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/scrapyproj$houseprice.coverage" NAME="houseprice Coverage Results" MODIFIED="1555403127848" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/beautifulsp" />
+    <SUITE FILE_PATH="coverage/scrapyproj$houseprice.coverage" NAME="houseprice Coverage Results" MODIFIED="1555407950708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/beautifulsp" />
     <SUITE FILE_PATH="coverage/scrapyproj$helloa.coverage" NAME="helloa Coverage Results" MODIFIED="1555310559356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/envy" />
-    <SUITE FILE_PATH="coverage/scrapyproj$bs4test.coverage" NAME="bs4test Coverage Results" MODIFIED="1555396536774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/beautifulsp" />
+    <SUITE FILE_PATH="coverage/scrapyproj$bs4test.coverage" NAME="bs4test Coverage Results" MODIFIED="1555474946649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/beautifulsp" />
     <SUITE FILE_PATH="coverage/newtest$helloa.coverage" NAME="helloa Coverage Results" MODIFIED="1551676011491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/envy" />
+    <SUITE FILE_PATH="coverage/scrapyproj$music163.coverage" NAME="music163 Coverage Results" MODIFIED="1555477852195" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/beautifulsp" />
+    <SUITE FILE_PATH="coverage/scrapyproj$music162_2.coverage" NAME="music162_2 Coverage Results" MODIFIED="1555476953441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/beautifulsp" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -50,7 +52,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tutorial/tutorial/spiders/itcast.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
+            <state relative-caret-position="190">
               <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
@@ -62,8 +64,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/beautifulsp/bs4test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="20" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+            <state relative-caret-position="600">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -71,23 +73,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/beautifulsp/houseprice.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/beautifulsp/music163.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+            <state relative-caret-position="457">
+              <caret line="32" column="11" lean-forward="true" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/beautifulsp/2019年各城市房价.txt">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/beautifulsp/hot_comments.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+            <state relative-caret-position="90">
+              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/beautifulsp/houseprice.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="109">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -113,8 +127,10 @@
         <option value="$PROJECT_DIR$/tutorial/tutorial/spiders/itcast.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/tutorial/tutorial/spiders/dmoz_spider.py" />
-        <option value="$PROJECT_DIR$/beautifulsp/bs4test.py" />
         <option value="$PROJECT_DIR$/beautifulsp/houseprice.py" />
+        <option value="$PROJECT_DIR$/beautifulsp/bs4test.py" />
+        <option value="$PROJECT_DIR$/beautifulsp/music162_2.py" />
+        <option value="$PROJECT_DIR$/beautifulsp/music163.py" />
       </list>
     </option>
   </component>
@@ -145,19 +161,6 @@
               <item name="scrapyproj" type="b2602c69:ProjectViewProjectNode" />
               <item name="newtest" type="462c0819:PsiDirectoryNode" />
               <item name="tutorial" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scrapyproj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newtest" type="462c0819:PsiDirectoryNode" />
-              <item name="tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="tutorial" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="scrapyproj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newtest" type="462c0819:PsiDirectoryNode" />
-              <item name="tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="spiders" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -190,7 +193,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.houseprice">
+  <component name="RunManager" selected="Python.music163">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="scrapyproj" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -325,6 +328,50 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="music162_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="scrapyproj" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/beautifulsp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/beautifulsp/music162_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="music163" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="scrapyproj" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/beautifulsp" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/beautifulsp/music163.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="Python.FlaskServer" factoryName="Flask server">
       <module name="scrapyproj" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -435,9 +482,13 @@
       <item itemvalue="Python.bs4test" />
       <item itemvalue="Python.helloa" />
       <item itemvalue="Python.houseprice" />
+      <item itemvalue="Python.music163" />
+      <item itemvalue="Python.music162_2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.music163" />
+        <item itemvalue="Python.music162_2" />
         <item itemvalue="Python.houseprice" />
         <item itemvalue="Python.helloa" />
       </list>
@@ -460,7 +511,7 @@
       <workItem from="1550808893372" duration="2775000" />
       <workItem from="1551674485173" duration="2339000" />
       <workItem from="1551682215721" duration="3128000" />
-      <workItem from="1555056624495" duration="26847000" />
+      <workItem from="1555056624495" duration="36599000" />
     </task>
     <task id="LOCAL-00001" summary="bs4 for douban top250">
       <created>1555332352918</created>
@@ -483,11 +534,25 @@
       <option name="project" value="LOCAL" />
       <updated>1555399175188</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add house price excel">
+      <created>1555403275364</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1555403275364</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add douban  excel">
+      <created>1555408396160</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1555408396160</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61014000" />
+    <option name="totallyTimeSpent" value="70766000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -557,7 +622,9 @@
     <MESSAGE value="bs4 for douban top250" />
     <MESSAGE value="add commit" />
     <MESSAGE value="add commit project" />
-    <option name="LAST_COMMIT_MESSAGE" value="add commit project" />
+    <MESSAGE value="add house price excel" />
+    <MESSAGE value="add douban  excel" />
+    <option name="LAST_COMMIT_MESSAGE" value="add douban  excel" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/tutorial/tutorial/middlewares.py">
@@ -622,23 +689,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/beautifulsp/豆瓣TOP250.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-384">
-          <caret line="164" column="48" lean-forward="true" selection-start-line="164" selection-start-column="48" selection-end-line="164" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tutorial/tutorial/spiders/itcast.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
-          <folding>
-            <element signature="e#24#37#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/beautifulsp/2019年各城市房价.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -646,10 +696,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/beautifulsp/豆瓣TOP250.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2010">
+          <caret line="134" column="19" selection-start-line="134" selection-start-column="19" selection-end-line="134" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tutorial/tutorial/spiders/itcast.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/beautifulsp/bs4test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="20" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+        <state relative-caret-position="600">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
@@ -658,11 +725,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/beautifulsp/houseprice.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
+        <state relative-caret-position="109">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beautifulsp/data.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beautifulsp/music163.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="95" selection-start-column="95" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beautifulsp/music163.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="32" column="11" lean-forward="true" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beautifulsp/music162_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/beautifulsp/hot_comments.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
         </state>
       </provider>
     </entry>
