@@ -21,7 +21,7 @@ options = webdriver.ChromeOptions()
 #chrome_options.add_argument('--headless')
 browser = webdriver.Chrome(options=options)
 
-wait = WebDriverWait(browser, 10)
+wait = WebDriverWait(browser, 40)
 client = pymongo.MongoClient(MONGO_URL)
 db = client[MONGO_DB]
 
@@ -35,6 +35,9 @@ def index_page(page):
     try:
         url = 'https://s.taobao.com/search?q=' + quote(KEYWORD)
         browser.get(url)
+        if page == 1:
+            sort_button = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, '.J_Ajax .link')))
+            sort_button.click()
         #下面if里面的代码实现页面跳转
         if page > 1:
             input = wait.until(
